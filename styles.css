@@ -18,6 +18,7 @@
 	padding: 1.5rem 7rem;
 	background: crimson;
 	color: #ffffff;
+	position: fixed;
 }
 
 .nav-logo {
@@ -78,4 +79,15 @@
 	text-decoration: none;
 	color: white;
 	padding: 0.5rem;
+}
+
+.footer {
+	background: #626466;
+	padding: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+	#nav-bar {
+		padding: 0.8rem 1.5rem;
+	}
 }
