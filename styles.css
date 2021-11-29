@@ -6,6 +6,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 
 /* nav bar */
@@ -53,4 +54,28 @@
 
 .welcome-text {
 	color: #ffffff;
+}
+
+/* projects section */
+
+#projects {
+	padding: 3rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 20px;
+}
+
+.project-tile {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+}
+
+.view-project {
+	width: 100%;
+	background: #626466;
+	text-decoration: none;
+	color: white;
+	padding: 0.5rem;
 }
