@@ -1,0 +1,43 @@
+/* reset css */
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* nav bar */
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 7rem;
+	background: crimson;
+	color: #ffffff;
+}
+
+.nav-logo {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+.nav-link:hover {
+	color: darkgoldenrod;
+}
+
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
